@@ -1,4 +1,4 @@
-package com.rncst.book.springboot;
+package com.rncst.book.springboot.web;
 
 import com.rncst.book.springboot.web.HelloController;
 import org.junit.Test;
@@ -23,7 +23,9 @@ public class HelloControllerTest {
     public void hello가_리턴된다() throws  Exception{
         String hello = "hello";
 
-        mvc.perform(get("/hello")).andExpect(status().isok()).andExpect(content().string(hello));
+        mvc.perform(get("/hello"))
+                .andExpect(status().isOk())
+                .andExpect(content().string(hello));
     }
 
 }
