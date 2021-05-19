@@ -1,4 +1,2 @@
 com/rncst/book/springboot/Application.java
  com.rncst.book.springboot.Application
-com/rncst/book/springboot/web/HelloController.java
- com.rncst.book.springboot.web.HelloController
